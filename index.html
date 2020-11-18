@@ -12,8 +12,8 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="img/logo.png" rel="icon" />
-    <link href="img/logo.png" rel="apple-touch-icon" />
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -34,11 +34,8 @@
     />
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
 
-    <!-- Main CSS File -->
+    <!-- Template Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
-
-    <!-- jQuery -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
   </head>
 
   <body>
@@ -52,11 +49,34 @@
         </div>
 
         <nav id="nav-menu-container">
-          <script>
-            $(function () {
-              $("#nav-menu-container").load("nav.html");
-            });
-          </script>
+          <ul class="nav-menu">
+            <li class="menu-active"><a href="index.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#features">Features</a></li>
+            <!-- <li><a href="#pricing">Pricing</a></li> -->
+            <!-- <li><a href="#team">Team</a></li> -->
+            <li><a href="#gallery">Gallery</a></li>
+            <li class="menu-has-children">
+              <a href="">Drop Down</a>
+              <ul>
+                <li><a href="#">Drop Down 1</a></li>
+                <li class="menu-has-children">
+                  <a href="#">Drop Down 2</a>
+                  <ul>
+                    <li><a href="#">Deep Drop Down 1</a></li>
+                    <li><a href="#">Deep Drop Down 2</a></li>
+                    <li><a href="#">Deep Drop Down 3</a></li>
+                    <li><a href="#">Deep Drop Down 4</a></li>
+                    <li><a href="#">Deep Drop Down 5</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">Drop Down 3</a></li>
+                <li><a href="#">Drop Down 4</a></li>
+                <li><a href="#">Drop Down 5</a></li>
+              </ul>
+            </li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
         </nav>
         <!-- #nav-menu-container -->
       </div>
@@ -100,16 +120,15 @@
     <!-- End Intro Section -->
 
     <main id="main">
-      <!-- ======= About Section ======= -->
+      <!-- ======= Our Mission Section ======= -->
       <section id="about" class="section-bg">
         <div class="container-fluid">
           <div class="section-header">
             <h3 class="section-title">Our Mission</h3>
             <span class="section-divider"></span>
             <p class="section-description">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque<br />
-              sunt in culpa qui officia deserunt mollit anim id est laborum
+              Our goal at To The Limit Math is to make the art of mathematics 
+              and problem solving approachable and enjoyable to all.
             </p>
           </div>
 
@@ -118,21 +137,20 @@
               <img src="assets/img/about-img.jpg" alt="" />
             </div>
 
-            <div class="col-lg-6 content wow fadeInRight">
+            <div class="col-lg-6 content wow ">
               <h2>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elite storium
-                paralate
+                Interested in improving your math skills?
               </h2>
               <h3>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum.
+                Sign up for tutoring now!
               </h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua
-                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                Math is essential in everyday life, and is the basis for many other subjects.
+                It is very important to learn and understand math, as establishing solid math skills
+                acts as a solid foundation for a plethra of other topics. 
               </p>
 
+              <!--
               <ul>
                 <li>
                   <i class="ion-android-checkmark-circle"></i> Ullamco laboris
@@ -149,15 +167,16 @@
                   dolore eu fugiat nulla pariatur.
                 </li>
               </ul>
+               -->
 
               <p>
-                Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                aute irure dolor in reprehenderit in voluptate velit esse cillum
-                dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                cupidatat non proident, sunt in culpa qui officia deserunt
-                mollit anim id est laborum Libero justo laoreet sit amet cursus
-                sit amet dictum sit. Commodo sed egestas egestas fringilla
-                phasellus faucibus scelerisque eleifend donec
+                Our nonprofit organization can supplement your current math knowledge,
+                providing free private tutoring for math subjects up to 
+                precalculus, along with competitive math competitions such as the AMC 8. 
+                We assign each student with a well-qualified math tutoring
+                who will help you establish a solid base and understand the topic 
+                you requested. We hope to spread our love of math around the world,
+                providing help to every student who needs it.
               </p>
             </div>
           </div>
@@ -165,13 +184,13 @@
       </section>
       <!-- End About Section -->
 
-      <!-- ======= Featuress Section ======= -->
+      <!-- ======= Statistics Section ======= -->
       <section id="features">
         <div class="container">
           <div class="row">
             <div class="col-lg-8 offset-lg-4">
               <div class="section-header wow fadeIn" data-wow-duration="1s">
-                <h3 class="section-title">Product Featuress</h3>
+                <h3 class="section-title">Statistics</h3>
                 <span class="section-divider"></span>
               </div>
             </div>
@@ -190,7 +209,7 @@
                   <div class="icon">
                     <i class="ion-ios-speedometer-outline"></i>
                   </div>
-                  <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+                  <h4 class="title"><a href="">Over 50 Students tutored</a></h4>
                   <p class="description">
                     Voluptatum deleniti atque corrupti quos dolores et quas
                     molestias excepturi sint occaecati cupiditate non provident
@@ -202,7 +221,7 @@
                   data-wow-delay="0.1s"
                 >
                   <div class="icon"><i class="ion-ios-flask-outline"></i></div>
-                  <h4 class="title"><a href="">Dolor Sitema</a></h4>
+                  <h4 class="title"><a href="">Over 30 tutors</a></h4>
                   <p class="description">
                     Minim veniam, quis nostrud exercitation ullamco laboris nisi
                     ut aliquip ex ea commodo consequat tarad limino ata noble
@@ -243,6 +262,64 @@
         </div>
       </section>
       <!-- End Featuress Section -->
+
+      <!-- ======= (New) Clients Section ======= -->
+      <section id="clients">
+        <div class="container">
+          <div class="row wow fadeInUp">
+           <div class="col-md-2">
+              <img src="assets/img/clients/client-1.png" alt="" />
+           </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-2.png" alt="" />
+            </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-3.png" alt="" />
+            </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-4.png" alt="" />
+            </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-5.png" alt="" />
+            </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-6.png" alt="" />
+            </div>
+          </div>
+
+          <div class="row wow">
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-1.png" alt="" />
+           </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-2.png" alt="" />
+            </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-3.png" alt="" />
+            </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-4.png" alt="" />
+            </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-5.png" alt="" />
+            </div>
+
+            <div class="col-md-2">
+              <img src="assets/img/clients/client-6.png" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Clients Section -->
 
       <!-- ======= Advanced Featuress Section ======= -->
       <section id="advanced-features">
@@ -473,7 +550,8 @@
       </section>
       <!-- End More Features Section -->
 
-      <!-- ======= Clients Section ======= -->
+      <!-- moving this up so im commenting this out-->
+      <!-- ======= Clients Section ======= 
       <section id="clients">
         <div class="container">
           <div class="row wow fadeInUp">
@@ -503,7 +581,8 @@
           </div>
         </div>
       </section>
-      <!-- End Clients Section -->
+      End Clients Section -->
+  
 
       <!-- ? ======= Pricing Section ======= -->
       <!-- <section id="pricing" class="section-bg">
@@ -896,45 +975,29 @@
 
       <!-- ======= Contact Section ======= -->
       <section id="contact">
-        <!-- ======= Contact Section ======= -->
         <div class="container">
           <div class="row wow fadeInUp">
-            <!-- <div id="reachUs"></div>
-            <script>
-              $(function () {
-                $("#reachUs").load("contact.html");
-              });
-            </script> -->
             <div class="col-lg-4 col-md-4">
               <div class="contact-about">
-                <h3>To The Limit</h3>
+                <h3>Avilon</h3>
                 <p>
-                  Be sure to shoot us an email or contact us on social media in
-                  case you have any questions!
+                  Cras fermentum odio eu feugiat. Justo eget magna fermentum
+                  iaculis eu non diam phasellus. Scelerisque felis imperdiet
+                  proin fermentum leo. Amet volutpat consequat mauris nunc
+                  congue.
                 </p>
-                <div class="Social Media">
-                  <a
-                    href="https://instagram.com/tothelimitmaths"
-                    class="instagram"
-                    target="_blank"
-                    ><i class="fa fa-instagram"></i
-                  ></a>
-                  <a
-                    href="https://twitter.com/tothelimitmaths"
-                    target="_blank"
-                    class="twitter"
-                    ><i class="fa fa-twitter"></i
-                  ></a>
-                  <a
-                    href="https://www.facebook.com/tothelimitmaths/"
-                    target="_blank"
-                    class="facebook"
+                <div class="social-links">
+                  <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+                  <a href="#" class="facebook"
                     ><i class="fa fa-facebook"></i
                   ></a>
-                  <a
-                    href="https://linkedin.com/company/tothelimitmaths"
-                    target="_blank"
-                    class="linkedin"
+                  <a href="#" class="instagram"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                  <a href="#" class="google-plus"
+                    ><i class="fa fa-google-plus"></i
+                  ></a>
+                  <a href="#" class="linkedin"
                     ><i class="fa fa-linkedin"></i
                   ></a>
                 </div>
@@ -945,22 +1008,21 @@
               <div class="info">
                 <div>
                   <i class="ion-ios-location-outline"></i>
-                  <p>The Globe</p>
+                  <p>A108 Adam Street<br />New York, NY 535022</p>
                 </div>
 
                 <div>
                   <i class="ion-ios-email-outline"></i>
-                  <p>tothelimitmathinc@gmail.com</p>
+                  <p>info@example.com</p>
                 </div>
 
-                <!-- <div>
+                <div>
                   <i class="ion-ios-telephone-outline"></i>
                   <p>+1 5589 55488 55s</p>
-                </div> -->
+                </div>
               </div>
             </div>
 
-            <!--? FORM ============================================================================================= -->
             <div class="col-lg-5 col-md-8">
               <div class="form">
                 <form
@@ -1035,25 +1097,37 @@
             </div>
           </div>
         </div>
-        <!-- End Contact Section -->
       </section>
       <!-- End Contact Section -->
     </main>
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer"></footer>
-    <script>
-      $(function () {
-        $("#footer").load("footer.html");
-      });
-    </script>
-
+    <footer id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-lg-left text-center">
+            <div class="copyright">
+              &copy; Copyright <strong>Avilon</strong>. All Rights Reserved
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
+              <a href="#intro" class="scrollto">Home</a>
+              <a href="#about" class="scrollto">About</a>
+              <a href="#">Privacy Policy</a>
+              <a href="#">Terms of Use</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- End  Footer -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
