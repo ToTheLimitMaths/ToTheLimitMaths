@@ -12,8 +12,8 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-    <link href="assets/img/favicon.png" rel="icon" />
-    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+     <link href="img/logo.png" rel="icon" />
+     <link href="img/logo.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -34,8 +34,12 @@
     />
     <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
 
-    <!-- Template Main CSS File -->
+    <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
+    
+     <!-- jQuery -->
+     <script src="assets/vendor/jquery/jquery.min.js"></script>
+    
   </head>
 
   <body>
@@ -49,31 +53,11 @@
         </div>
 
         <nav id="nav-menu-container">
-          <ul class="nav-menu">
-            <li class="menu-active"><a href="index.html">Home</a></li>
-            <li><a href="#about">About Us</a></li>
-            <li><a href="#features">Features</a></li>
-            <!-- <li><a href="#pricing">Pricing</a></li> -->
-            <!-- <li><a href="#team">Team</a></li> -->
-            <li><a href="#gallery">Gallery</a></li>
-            <li class="menu-has-children">
-              <a href="">Sign Ups</a>
-              <ul>
-                <!-- <li class="menu-has-children">
-                  <a href="#">Deep Drop Down thingy</a>
-                  <ul>
-                    <li><a href="http://tothelimitmaths.org/signup">Student Sign Up</a></li>
-                    <li><a href="http://tothelimitmaths.org/tutor">Tutor Sign Up</a></li>
-                    <li><a href="http://tothelimitmaths.org/tech">Tech Sign up</a></li>
-                  </ul>
-                </li> -->
-                <li><a href="http://tothelimitmaths.org/signup">Student Sign Up</a></li>
-                <li><a href="http://tothelimitmaths.org/tutor">Tutor Sign Up</a></li>
-                <li><a href="http://tothelimitmaths.org/tech">Tech Sign Up</a></li>
-              </ul>
-            </li>
-            <li><a href="#contact">Contact Us</a></li>
-          </ul>
+          <script>
+             $(function () {
+               $("#nav-menu-container").load("nav.html");
+             });
+           </script>
         </nav>
         <!-- #nav-menu-container -->
       </div>
@@ -948,14 +932,18 @@
       <section id="contact">
         <div class="container">
           <div class="row wow fadeInUp">
+            <!-- <div id="reachUs"></div>
+             <script>
+               $(function () {
+                 $("#reachUs").load("contact.html");
+               });
+             </script> -->
             <div class="col-lg-4 col-md-4">
               <div class="contact-about">
-                <h3>Avilon</h3>
+                <h3>To The Limit</h3>
                 <p>
-                  Cras fermentum odio eu feugiat. Justo eget magna fermentum
-                  iaculis eu non diam phasellus. Scelerisque felis imperdiet
-                  proin fermentum leo. Amet volutpat consequat mauris nunc
-                  congue.
+                  Be sure to shoot us an email or contact us on social media in
+                  case you have any questions!
                 </p>
                 <div class="social-links">
                   <a href="https://www.instagram.com/tothelimitmaths/" class="instagram"
@@ -981,21 +969,24 @@
               <div class="info">
                 <div>
                   <i class="ion-ios-location-outline"></i>
-                  <p>A108 Adam Street<br />New York, NY 535022</p>
+                  <p>The Globe</p>
                 </div>
 
                 <div>
                   <i class="ion-ios-email-outline"></i>
-                  <p>info@example.com</p>
+                  <p>tothelimitmathinc@gmail.com</p>
                 </div>
-
+                <!-- <div>
                 <div>
                   <i class="ion-ios-telephone-outline"></i>
                   <p>+1 5589 55488 55s</p>
                 </div>
+                </div> -->
+
               </div>
             </div>
 
+            <!--? FORM ============================================================================================= -->
             <div class="col-lg-5 col-md-8">
               <div class="form">
                 <form
@@ -1076,31 +1067,17 @@
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6 text-lg-left text-center">
-            <div class="copyright">
-              &copy; Copyright <strong>Avilon</strong>. All Rights Reserved
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <nav class="footer-links text-lg-right text-center pt-2 pt-lg-0">
-              <a href="#intro" class="scrollto">Home</a>
-              <a href="#about" class="scrollto">About</a>
-              <a href="#">Privacy Policy</a>
-              <a href="#">Terms of Use</a>
-            </nav>
-          </div>
-        </div>
-      </div>
-    </footer>
+     <footer id="footer"></footer>
+     <script>
+       $(function () {
+         $("#footer").load("footer.html");
+       });
+     </script>
     <!-- End  Footer -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- Vendor JS Files -->
-    <script src="assets/vendor/jquery/jquery.min.js"></script>
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
     <script src="assets/vendor/php-email-form/validate.js"></script>
