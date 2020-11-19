@@ -12,8 +12,8 @@
     <meta content="" name="keywords" />
 
     <!-- Favicons -->
-     <link href="img/logo.png" rel="icon" />
-     <link href="img/logo.png" rel="apple-touch-icon" />
+    <link href="img/logo.png" rel="icon" />
+    <link href="img/logo.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
     <link
@@ -36,10 +36,9 @@
 
     <!-- Main CSS File -->
     <link href="assets/css/style.css" rel="stylesheet" />
-    
-     <!-- jQuery -->
-     <script src="assets/vendor/jquery/jquery.min.js"></script>
-    
+
+    <!-- jQuery -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
   </head>
 
   <body>
@@ -53,11 +52,65 @@
         </div>
 
         <nav id="nav-menu-container">
-          <script>
+          <!-- <script>
              $(function () {
                $("#nav-menu-container").load("nav.html");
              });
-           </script>
+           </script> -->
+          <ul class="nav-menu">
+            <li class="menu-active"><a href="index.html">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <!-- <li><a href="#gallery">Gallery</a></li> -->
+            <li><a href="/team/">Team</a></li>
+            <li class="menu-has-children">
+              <a href="">Sign Up</a>
+              <ul>
+                <li>
+                  <a href="https://tothelimitmaths.org/signup"
+                    >Become a Student</a
+                  >
+                </li>
+                <li>
+                  <a href="https://tothelimitmaths.org/tutor">Become a Tutor</a>
+                </li>
+                <li class="menu-has-children">
+                  <a href="#">Join a Department</a>
+                  <ul>
+                    <li>
+                      <a href="https://tothelimitmaths.org/outreach"
+                        >Join Outreach</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://tothelimitmaths.org/tech">Join Tech</a>
+                    </li>
+                    <li>
+                      <a href="https://tothelimitmaths.org/design"
+                        >Join Design</a
+                      >
+                    </li>
+                    <li>
+                      <a href="https://tothelimitmaths.org/curriculum"
+                        >Build Curriculum</a
+                      >
+                    </li>
+                    <!-- <li>
+                        <a href="https://tothelimitmaths.org/leadership"
+                          >Apply for Leadership</a
+                        >
+                      </li> -->
+                  </ul>
+                </li>
+                <li>
+                  <a href="https://tothelimitmaths.org/leadership"
+                    >Apply for Leadership</a
+                  >
+                </li>
+                <!-- <li><a href="#">Drop Down 5</a></li> -->
+              </ul>
+            </li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
         </nav>
         <!-- #nav-menu-container -->
       </div>
@@ -108,7 +161,7 @@
             <h3 class="section-title">Our Mission</h3>
             <span class="section-divider"></span>
             <p class="section-description">
-              Our goal at To The Limit Math is to make the art of mathematics 
+              Our goal at To The Limit Math is to make the art of mathematics
               and problem solving approachable and enjoyable to all.
             </p>
           </div>
@@ -118,17 +171,14 @@
               <img src="assets/img/about-img.jpg" alt="" />
             </div>
 
-            <div class="col-lg-6 content wow ">
-              <h2>
-                Interested in improving your math skills?
-              </h2>
-              <h3>
-                Sign up for tutoring now!
-              </h3>
+            <div class="col-lg-6 content wow">
+              <h2>Interested in improving your math skills?</h2>
+              <h3>Sign up for tutoring now!</h3>
               <p>
-                Math is essential in everyday life, and is the basis for many other subjects.
-                It is very important to learn and understand math, as establishing solid math skills
-                acts as a solid foundation for a plethra of other topics. 
+                Math is essential in everyday life, and is the basis for many
+                other subjects. It is very important to learn and understand
+                math, as establishing solid math skills acts as a solid
+                foundation for a plethra of other topics.
               </p>
 
               <!--
@@ -151,13 +201,13 @@
                -->
 
               <p>
-                Our nonprofit organization can supplement your current math knowledge,
-                providing free private tutoring for math subjects up to 
-                precalculus, along with competitive math competitions such as the AMC 8. 
-                We assign each student with a well-qualified math tutoring
-                who will help you establish a solid base and understand the topic 
-                you requested. We hope to spread our love of math around the world,
-                providing help to every student who needs it.
+                Our nonprofit organization can supplement your current math
+                knowledge, providing free private tutoring for math subjects up
+                to precalculus, along with competitive math competitions such as
+                the AMC 8. We assign each student with a well-qualified math
+                tutoring who will help you establish a solid base and understand
+                the topic you requested. We hope to spread our love of math
+                around the world, providing help to every student who needs it.
               </p>
             </div>
           </div>
@@ -248,9 +298,9 @@
       <section id="clients">
         <div class="container">
           <div class="row wow fadeInUp">
-           <div class="col-md-2">
+            <div class="col-md-2">
               <img src="assets/img/clients/client-1.png" alt="" />
-           </div>
+            </div>
 
             <div class="col-md-2">
               <img src="assets/img/clients/client-2.png" alt="" />
@@ -537,7 +587,6 @@
         </div>
       </section>
       End Clients Section -->
-  
 
       <!-- ? ======= Pricing Section ======= -->
       <!-- <section id="pricing" class="section-bg">
@@ -946,10 +995,14 @@
                   case you have any questions!
                 </p>
                 <div class="social-links">
-                  <a href="https://www.instagram.com/tothelimitmaths/" class="instagram"
+                  <a
+                    href="https://www.instagram.com/tothelimitmaths/"
+                    class="instagram"
                     ><i class="fa fa-instagram"></i
                   ></a>
-                  <a href="https://www.facebook.com/tothelimitmaths/" class="facebook"
+                  <a
+                    href="https://www.facebook.com/tothelimitmaths/"
+                    class="facebook"
                     ><i class="fa fa-facebook"></i
                   ></a>
                   <a href="https://twitter.com/tothelimitmaths" class="twitter"
@@ -958,7 +1011,9 @@
                   <a href="#" class="google-plus"
                     ><i class="fa fa-google-plus"></i
                   ></a>
-                  <a href="https://www.linkedin.com/company/66363296/admin/" class="linkedin"
+                  <a
+                    href="https://www.linkedin.com/company/66363296/admin/"
+                    class="linkedin"
                     ><i class="fa fa-linkedin"></i
                   ></a>
                 </div>
@@ -982,7 +1037,6 @@
                   <p>+1 5589 55488 55s</p>
                 </div>
                 </div> -->
-
               </div>
             </div>
 
@@ -1067,12 +1121,12 @@
     <!-- End #main -->
 
     <!-- ======= Footer ======= -->
-     <footer id="footer"></footer>
-     <script>
-       $(function () {
-         $("#footer").load("footer.html");
-       });
-     </script>
+    <footer id="footer"></footer>
+    <script>
+      $(function () {
+        $("#footer").load("footer.html");
+      });
+    </script>
     <!-- End  Footer -->
 
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
