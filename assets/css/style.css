@@ -940,6 +940,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #clients img:hover {
   opacity: 0.8;
+  cursor: default;
 }
 
 /* Pricing Section
@@ -1366,4 +1367,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 .stat-desc {
   font-size: 40px;
+}
+
+.advanced-features-parent {
+  background-color: #eff5f5;
+  padding-top: 60px;
+}
+
+.advanced-features-parent a:hover {
+  text-decoration: underline;
 }
