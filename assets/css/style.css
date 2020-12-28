@@ -150,9 +150,9 @@ h6 {
 #intro .intro-text {
   position: absolute;
   left: 0;
-  top: 60px;
   right: 0;
-  height: calc(50% - 60px);
+  height: 90%;
+  /* height: calc(50% - 60px); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -163,9 +163,9 @@ h6 {
 #intro h2 {
   margin: 30px 0 10px 0;
   padding: 0 15px;
-  font-size: 48px;
+  font-size: 90px;
   font-weight: 400;
-  line-height: 56px;
+  line-height: 86px;
   color: #fff;
 }
 
