@@ -945,12 +945,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Pricing Section
 --------------------------------*/
-#pricing {
+#testimonials {
   padding: 60px 0 60px 0;
   overflow: hidden;
 }
 
-#pricing .box {
+#testimonials .box {
   padding: 40px;
   margin-bottom: 30px;
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
@@ -958,29 +958,29 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-#pricing h3 {
+#testimonials h3 {
   font-weight: 400;
   margin-bottom: 15px;
   font-size: 28px;
 }
 
-#pricing h4 {
+#testimonials h4 {
   font-size: 46px;
   color: #1dc8cd;
   font-weight: 300;
 }
 
-#pricing h4 sup {
+#testimonials h4 sup {
   font-size: 20px;
   top: -20px;
 }
 
-#pricing h4 span {
+#testimonials h4 span {
   color: #bababa;
   font-size: 20px;
 }
 
-#pricing ul {
+#testimonials ul {
   padding: 0;
   list-style: none;
   color: #999;
@@ -988,17 +988,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   line-height: 20px;
 }
 
-#pricing ul li {
+#testimonials ul li {
   padding-bottom: 12px;
 }
 
-#pricing ul i {
+#testimonials ul i {
   color: #1dc8cd;
   font-size: 18px;
   padding-right: 4px;
 }
 
-#pricing .get-started-btn {
+#testimonials .get-started-btn {
   background: #515e61;
   display: inline-block;
   padding: 6px 30px;
@@ -1010,11 +1010,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-family: "Montserrat", sans-serif;
 }
 
-#pricing .featured {
+#testimonials .featured {
   border: 2px solid #1dc8cd;
 }
 
-#pricing .featured .get-started-btn {
+#testimonials .featured .get-started-btn {
   background: linear-gradient(45deg, #1de099, #1dc8cd);
 }
 
