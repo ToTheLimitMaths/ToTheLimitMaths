@@ -108,18 +108,18 @@
             "easeInOutExpo"
           );
 
-        //   if ($(this).parents(".nav-menu").length) {
-        //     $(".nav-menu .menu-active").removeClass("menu-active");
-        //     $(this).closest("li").addClass("menu-active");
-        //   }
+          if ($(this).parents(".nav-menu").length) {
+            // $(".nav-menu .menu-active").removeClass("menu-active");
+            // $(this).closest("li").addClass("menu-active");
+          }
 
-        //   if ($("body").hasClass("mobile-nav-active")) {
-        //     $("body").removeClass("mobile-nav-active");
-        //     $("#mobile-nav-toggle i").toggleClass("fa-times fa-bars");
-        //     $("#mobile-body-overly").fadeOut();
-        //   }
-        //   return false;
-        // }
+          if ($("body").hasClass("mobile-nav-active")) {
+            // $("body").removeClass("mobile-nav-active");
+            // $("#mobile-nav-toggle i").toggleClass("fa-times fa-bars");
+            // $("#mobile-body-overly").fadeOut();
+          }
+          return false;
+        }
       }
     }
   );
