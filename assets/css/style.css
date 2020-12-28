@@ -136,7 +136,7 @@ h6 {
       rgba(29, 224, 153, 0.8),
       rgba(29, 200, 205, 0.8)
     ),
-    url("../../img/banner.png") center top no-repeat;
+    url("../img") center top no-repeat;
   background-size: cover;
   position: relative;
 }
