@@ -54,57 +54,45 @@
         </div>
 
         <nav id="nav-menu-container">
+          <!-- <script>
+             $(function () {
+               $("#nav-menu-container").load("nav.html");
+             });
+           </script> -->
           <ul class="nav-menu">
-            <li class="menu-active"><a href="/team/">Team</a></li>
             <li><a href="../index.html">Home</a></li>
             <li><a href="../index.html#about">About Us</a></li>
             <li class="menu-has-children">
-              <a href="">Sign Up</a>
+              <a href="../index.html/#signup">Sign Up</a>
               <ul>
                 <li>
-                  <a href="https://tothelimitmaths.org/signup"
+                  <a href="https://tothelimitmaths.org/signup" target="_blank"
                     >Become a Student</a
                   >
                 </li>
                 <li>
-                  <a href="https://tothelimitmaths.org/tutor">Become a Tutor</a>
-                </li>
-                <li class="menu-has-children">
-                  <a href="#">Join a Department</a>
-                  <ul>
-                    <li>
-                      <a href="https://tothelimitmaths.org/outreach"
-                        >Join Outreach</a
-                      >
-                    </li>
-                    <li>
-                      <a href="https://tothelimitmaths.org/tech">Join Tech</a>
-                    </li>
-                    <li>
-                      <a href="https://tothelimitmaths.org/design"
-                        >Join Design</a
-                      >
-                    </li>
-                    <li>
-                      <a href="https://tothelimitmaths.org/curriculum"
-                        >Build Curriculum</a
-                      >
-                    </li>
-                    <!-- <li>
-                      <a href="https://tothelimitmaths.org/leadership"
-                        >Apply for Leadership</a
-                      >
-                    </li> -->
-                  </ul>
-                </li>
-                <li>
-                  <a href="https://tothelimitmaths.org/leadership"
-                    >Apply for Leadership</a
+                  <a href="https://tothelimitmaths.org/tutor" target="_blank"
+                    >Tutor/Volunteer with Us</a
                   >
                 </li>
-                <!-- <li><a href="#">Drop Down 5</a></li> -->
+                <li>
+                  <a href="https://tothelimitmaths.org/tutor" target="_blank"
+                    >Join Our Discord Server</a
+                  >
+                </li>
+                <li>
+                  <a href="https://tothelimitmaths.org/tech" target="_blank"
+                    >Join Tech</a
+                  >
+                </li>
+                <li>
+                  <a href="https://tothelimitmaths.org/design" target="_blank"
+                    >Join Design</a
+                  >
+                </li>
               </ul>
             </li>
+            <li class="menu-active"><a href="">Team</a></li>
             <li><a href="#contact">Contact Us</a></li>
           </ul>
         </nav>
@@ -265,28 +253,6 @@
         </div>
       </section>
 
-      <!-- ======= Contact Section ======= -->
-      <section id="contact">
-        <script>
-          $(function () {
-            $("#contact").load("../contact.html");
-          });
-        </script>
-      </section>
-      <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer id="footer"></footer>
-    <script>
-      $(function () {
-        $("#footer").load("../footer.html");
-      });
-    </script>
-
-    <!-- End  Footer -->
-
     <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
 
     <!-- Vendor JS Files -->
@@ -299,6 +265,6 @@
     <script src="../assets/vendor/hoverIntent/hoverIntent.js"></script>
 
     <!-- Template Main JS File -->
-    <script src="../assets/js/main.js"></script>
+    <script src="main.js"></script>
   </body>
 </html>
