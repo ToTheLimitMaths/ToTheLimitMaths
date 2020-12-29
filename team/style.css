@@ -1357,3 +1357,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .footer-links a:hover {
   color: #1dc8cd;
 }
+
+img {
+  border-radius: 20px;
+  transition: 0.3s;
+  border: 0px solid #18d26e;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img:hover {
+  border: 5px solid #18d26e;
+  transition: 0.3s;
+}
