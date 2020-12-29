@@ -2,8 +2,8 @@ RewriteOptions inherit
 RewriteEngine On 
 RewriteCond %{HTTPS} off 
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
-RewriteCond %{HTTP_HOST} ^tothelimitmaths\.org$ [OR]
-RewriteCond %{HTTP_HOST} ^www\.tothelimitmaths\.org$
+RewriteCond %{HTTP_HOST} ^tothelimitmaths.org [NC]
+RewriteRule ^(.*)$ http://www.tothelimitmaths.org/$1 [L,R=301]
 RewriteRule ^app$ "https\:\/\/drive\.google\.com\/file\/d\/1rk9IAMtUE17M0H0Z0BjGZiDAQKP0sp85\/view\?usp\=sharing" [R=301,L]
 
 # php -- BEGIN cPanel-generated handler, do not edit
