@@ -172,3 +172,7 @@
     $(".venobox").venobox();
   });
 })(jQuery);
+
+if (location.hostname == "tothelimitmaths.tech") {
+  console.log("hello world, this is .tech");
+}
