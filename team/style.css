@@ -931,14 +931,15 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #clients img {
-  max-width: 100%;
-  opacity: 0.5;
+  max-width: 300px;
+  max-height: 200px;
+  opacity: 1;
   transition: 0.3s;
   padding: 15px 0;
 }
 
 #clients img:hover {
-  opacity: 1;
+  opacity: 0.5;
 }
 
 /* Pricing Section
@@ -1368,14 +1369,17 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #1dc8cd;
 }
 
-img {
+img.executive {
   border-radius: 20px;
   transition: 0.3s;
   border: 0px solid #18d26e;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-img:hover {
+img:hover.executive {
   border: 5px solid #18d26e;
   transition: 0.3s;
+}
+.sponsors {
+  padding: 10px;
 }
