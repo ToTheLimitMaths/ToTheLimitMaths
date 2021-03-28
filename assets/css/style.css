@@ -1359,6 +1359,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #1dc8cd;
 }
 
+.footer-anshul {
+  font-size: 12px;
+  line-height: 24px;
+  font-family: "Montserrat", sans-serif;
+  color: #888;
+}
+
 /* ok i give up organizing code */
 
 .stat {
