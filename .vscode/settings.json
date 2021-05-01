@@ -15,5 +15,6 @@
         "ttlm",
         "vaidya",
         "vyom"
-    ]
+    ],
+    "liveServer.settings.port": 5501
 }
