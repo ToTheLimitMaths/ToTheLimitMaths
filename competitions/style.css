@@ -1383,3 +1383,7 @@ img:hover.executive {
 .sponsors {
   padding: 10px;
 }
+
+.inner-page a:hover {
+  text-decoration: underline;
+}
