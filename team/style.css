@@ -1390,3 +1390,16 @@ img:hover.executive {
 .sponsors {
   padding: 10px;
 }
+
+/* scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+}
+::-webkit-scrollbar-track {
+  background: #f3f3f3;
+  width: 0%;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: linear-gradient(#1dc8cd, #1de099);
+}
