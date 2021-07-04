@@ -1414,7 +1414,7 @@ img:hover.executive {
       rgba(217, 217, 217, 0)
     ),
     linear-gradient(to right, rgba(29, 200, 205, 1), rgba(29, 224, 153, 1));
-  background-size: 100% 0.1em, 0 0.1em;
+  background-size: 100% 0.15em, 0 0.15em;
   background-position: 100% 100%, 0 100%;
   background-repeat: no-repeat;
   transition: background-size 500ms;
@@ -1422,7 +1422,7 @@ img:hover.executive {
 
 .hover:hover,
 .hover:focus {
-  background-size: 0 0.1em, 100% 0.1em;
+  background-size: 0 0.15em, 100% 0.15em;
 }
 
 .btn-get-started {
