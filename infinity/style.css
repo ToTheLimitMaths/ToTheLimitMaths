@@ -519,6 +519,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-weight: 400;
 }
 
+.section-header .section-title-2 {
+  font-size: 20px;
+  color: #111;
+  text-align: center;
+  font-weight: 400;
+}
+
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
@@ -534,6 +541,16 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
   margin: 0 auto;
   margin-bottom: 20px;
+}
+
+.section-header .section-divider-2 {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background: #1dc8cd;
+  background: linear-gradient(0deg, #1dc8cd 0%, #55fabe 100%);
+  margin: 0 auto;
+  margin-bottom: 15px;
 }
 
 /* Section with background
@@ -1407,7 +1424,7 @@ img:hover.executive {
   border-radius: 30px;
   background: linear-gradient(#1dc8cd, #1de099);
 }
-.hover {
+.smooth-hover {
   background: linear-gradient(
       to left,
       rgba(217, 217, 217, 0.4),
@@ -1420,8 +1437,8 @@ img:hover.executive {
   transition: background-size 500ms;
 }
 
-.hover:hover,
-.hover:focus {
+.smooth-hover:hover,
+.smooth-hover:focus {
   background-size: 0 0.15em, 100% 0.15em;
 }
 
@@ -1435,6 +1452,17 @@ img:hover.executive {
   border-radius: 50px;
   transition: 0.5s;
   margin: 10px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid;
+  border-image-slice: 1;
+  border-image-source: linear-gradient(
+    to right rgba(29, 200, 205, 1),
+    rgba(29, 224, 153, 1)
+  );
+  /* color: #fff; */
+}
+
+.btn-get-started:hover {
+  color: rgba(29, 224, 153, 1) !important;
+  text-decoration: none !important;
+  background: #fff !important ;
 }
