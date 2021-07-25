@@ -1099,9 +1099,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #team .member .pic2 {
-  margin-bottom: 15px;
   overflow: hidden;
-  height: 260px;
+  height: 200px;
 }
 
 #team .member .pic2 img {
@@ -1376,14 +1375,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #888;
 }
 
-img.executive {
+img.person {
   border-radius: 20px;
   transition: 0.3s;
   border: 0px solid #18d26e;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-img:hover.executive {
+img:hover.person {
   border: 5px solid #18d26e;
   transition: 0.3s;
 }
