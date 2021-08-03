@@ -853,7 +853,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #call-to-action .cta-btn:hover {
   background: #1dc8cd;
-  border: 2px solid #1dc8cd;
+  border: 2px solid #fff;
 }
 
 /* More Features Section
