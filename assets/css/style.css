@@ -1523,3 +1523,21 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: inherit;
   font-size: 16px;
 }
+
+@media (max-width: 500px) {
+  .card-title {
+    font-size: 21px;
+  }
+}
+
+@media (max-width: 420px) {
+  .card__icon:nth-child(2) {
+    display: none;
+  }
+}
+
+@media (max-width: 330px) {
+  .card-text.small {
+    display: none;
+  }
+}
