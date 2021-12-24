@@ -609,7 +609,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img {
-  height: 510px;
+  /* height: 510px; */
+  margin-bottom: 20px;
   overflow: hidden;
 }
 
@@ -833,7 +834,6 @@ body.mobile-nav-active #mobile-nav-toggle {
   #call-to-action .cta-btn-container {
     display: flex;
     align-items: center;
-    justify-content: flex-end;
   }
 }
 
