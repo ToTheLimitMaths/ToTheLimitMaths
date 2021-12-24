@@ -1,20 +1,20 @@
 {
-    "cSpell.words": [
-        "advaita",
-        "aviral",
-        "bahey",
-        "creds",
-        "doshi",
-        "favicons",
-        "mamidipudi",
-        "mehrotra",
-        "minlen",
-        "sohil",
-        "suraj",
-        "tothelimitmaths",
-        "ttlm",
-        "vaidya",
-        "vyom"
-    ],
-    "liveServer.settings.port": 5501
+  "cSpell.words": [
+    "advaita",
+    "aviral",
+    "bahey",
+    "creds",
+    "doshi",
+    "favicons",
+    "mamidipudi",
+    "mehrotra",
+    "minlen",
+    "sohil",
+    "suraj",
+    "tothelimitmaths",
+    "ttlm",
+    "vaidya",
+    "vyom"
+  ],
+  "liveServer.settings.port": 5503
 }

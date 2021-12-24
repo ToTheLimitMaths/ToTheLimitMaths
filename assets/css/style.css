@@ -1476,3 +1476,50 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 30px;
   background: linear-gradient(#1dc8cd, #1de099);
 }
+.card__special {
+  margin-top: 15px;
+  position: relative;
+  padding: 20px;
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  transition: all 0.2s;
+  background: radial-gradient(#1de099, #1dc8cd);
+}
+
+.card__link,
+.card__exit,
+.card__icon {
+  position: relative;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+.card__link {
+  font-size: 1rem;
+}
+.card__link:hover {
+  color: #fff;
+}
+
+.card__apply {
+  position: absolute;
+  bottom: 25px;
+  font-size: 20px;
+}
+
+.begin {
+  text-align: center;
+  background-color: #6a7dfe;
+  border-radius: 10px;
+  padding: 14px;
+  color: white;
+  font-weight: 500;
+
+  background: radial-gradient(130deg, #4c62f5, #6d74a9);
+}
+
+.begin-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+}
